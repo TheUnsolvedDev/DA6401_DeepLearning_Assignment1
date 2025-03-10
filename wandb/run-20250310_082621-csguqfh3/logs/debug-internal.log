@@ -1,0 +1,16 @@
+{"time":"2025-03-10T08:26:21.515231393+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250310_082621-csguqfh3/logs/debug-core.log"}
+{"time":"2025-03-10T08:26:21.619466021+05:30","level":"INFO","msg":"created new stream","id":"csguqfh3"}
+{"time":"2025-03-10T08:26:21.619497069+05:30","level":"INFO","msg":"stream: started","id":"csguqfh3"}
+{"time":"2025-03-10T08:26:21.619528809+05:30","level":"INFO","msg":"sender: started","stream_id":"csguqfh3"}
+{"time":"2025-03-10T08:26:21.619527536+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"csguqfh3"}
+{"time":"2025-03-10T08:26:21.61958306+05:30","level":"INFO","msg":"handler: started","stream_id":"csguqfh3"}
+{"time":"2025-03-10T08:26:21.938938651+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T08:28:02.971436456+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T08:28:02.97181777+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T08:28:03.973278782+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":25.028232102},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":21.689994979},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":21.282870162},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":18.12600171},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":17.727018499},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":14.722213689},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":14.28269225},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":11.352451676},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":10.900340104},{"desc":"uploading artifact run-csguqfh3-conf_mat_table","runtime_seconds":7.867354226}],"total_operations":15}}
+{"time":"2025-03-10T08:28:43.126740324+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T08:28:44.41948697+05:30","level":"INFO","msg":"stream: closing","id":"csguqfh3"}
+{"time":"2025-03-10T08:28:44.419510193+05:30","level":"INFO","msg":"handler: closed","stream_id":"csguqfh3"}
+{"time":"2025-03-10T08:28:44.419534168+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"csguqfh3"}
+{"time":"2025-03-10T08:28:44.41958868+05:30","level":"INFO","msg":"sender: closed","stream_id":"csguqfh3"}
+{"time":"2025-03-10T08:28:44.419621953+05:30","level":"INFO","msg":"stream: closed","id":"csguqfh3"}

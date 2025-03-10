@@ -1,0 +1,16 @@
+{"time":"2025-03-10T08:19:42.28550474+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250310_081942-yyysl9q2/logs/debug-core.log"}
+{"time":"2025-03-10T08:19:42.390281993+05:30","level":"INFO","msg":"created new stream","id":"yyysl9q2"}
+{"time":"2025-03-10T08:19:42.390314663+05:30","level":"INFO","msg":"stream: started","id":"yyysl9q2"}
+{"time":"2025-03-10T08:19:42.390336893+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"yyysl9q2"}
+{"time":"2025-03-10T08:19:42.390341973+05:30","level":"INFO","msg":"handler: started","stream_id":"yyysl9q2"}
+{"time":"2025-03-10T08:19:42.390374241+05:30","level":"INFO","msg":"sender: started","stream_id":"yyysl9q2"}
+{"time":"2025-03-10T08:19:42.768757899+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T08:20:03.437609843+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T08:20:03.437982524+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T08:20:04.439397171+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":13.267074812},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":12.869366238},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":11.30280241},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":10.904376952},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":9.343210003},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":8.937799533},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":7.365228451},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":6.949257766},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":5.387107321},{"desc":"uploading artifact run-yyysl9q2-conf_mat_table","runtime_seconds":4.967435523}],"total_operations":14}}
+{"time":"2025-03-10T08:20:40.395097826+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T08:20:41.796912285+05:30","level":"INFO","msg":"stream: closing","id":"yyysl9q2"}
+{"time":"2025-03-10T08:20:41.796947019+05:30","level":"INFO","msg":"handler: closed","stream_id":"yyysl9q2"}
+{"time":"2025-03-10T08:20:41.796981512+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"yyysl9q2"}
+{"time":"2025-03-10T08:20:41.79702906+05:30","level":"INFO","msg":"sender: closed","stream_id":"yyysl9q2"}
+{"time":"2025-03-10T08:20:41.797077759+05:30","level":"INFO","msg":"stream: closed","id":"yyysl9q2"}

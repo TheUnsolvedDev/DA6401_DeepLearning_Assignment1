@@ -1,0 +1,1 @@
+d:mnist_e:25_bs:64_l:cross_entropy_o:nadam_lr:0.0005_b:0.9_b:0.99_b:0.995_e:1e-06_wd:0.0005_wi:xavier_normal_nl:3_hs:64_a:tanh_

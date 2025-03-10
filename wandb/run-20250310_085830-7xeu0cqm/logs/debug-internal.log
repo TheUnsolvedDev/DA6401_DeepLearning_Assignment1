@@ -1,0 +1,16 @@
+{"time":"2025-03-10T08:58:30.926444071+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250310_085830-7xeu0cqm/logs/debug-core.log"}
+{"time":"2025-03-10T08:58:31.031237531+05:30","level":"INFO","msg":"created new stream","id":"7xeu0cqm"}
+{"time":"2025-03-10T08:58:31.031278518+05:30","level":"INFO","msg":"stream: started","id":"7xeu0cqm"}
+{"time":"2025-03-10T08:58:31.031298005+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"7xeu0cqm"}
+{"time":"2025-03-10T08:58:31.031329975+05:30","level":"INFO","msg":"sender: started","stream_id":"7xeu0cqm"}
+{"time":"2025-03-10T08:58:31.031302213+05:30","level":"INFO","msg":"handler: started","stream_id":"7xeu0cqm"}
+{"time":"2025-03-10T08:58:31.360496444+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T08:59:42.954321688+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T08:59:42.954940683+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T08:59:43.956015506+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.674539456,"progress":"726B/726B"},{"desc":"uploading config.yaml","runtime_seconds":0.377968025,"progress":"2.2KB/2.2KB"}],"total_operations":2}}
+{"time":"2025-03-10T08:59:44.598790408+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T08:59:45.892831821+05:30","level":"INFO","msg":"stream: closing","id":"7xeu0cqm"}
+{"time":"2025-03-10T08:59:45.892850325+05:30","level":"INFO","msg":"handler: closed","stream_id":"7xeu0cqm"}
+{"time":"2025-03-10T08:59:45.89286351+05:30","level":"INFO","msg":"sender: closed","stream_id":"7xeu0cqm"}
+{"time":"2025-03-10T08:59:45.892860825+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"7xeu0cqm"}
+{"time":"2025-03-10T08:59:45.892912793+05:30","level":"INFO","msg":"stream: closed","id":"7xeu0cqm"}

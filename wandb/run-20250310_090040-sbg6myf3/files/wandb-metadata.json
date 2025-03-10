@@ -1,0 +1,72 @@
+{
+  "os":  "Linux-6.11.0-19-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.9",
+  "startedAt":  "2025-03-10T03:30:40.652471Z",
+  "args":  [
+    "-e",
+    "25",
+    "-o",
+    "adam",
+    "-lr",
+    "0.0005",
+    "-w_d",
+    "0.0005",
+    "-nhl",
+    "3",
+    "-sz",
+    "128",
+    "-a",
+    "tanh",
+    "-loss",
+    "cross_entropy",
+    "-w_i",
+    "xavier_normal",
+    "-b",
+    "64",
+    "-d",
+    "mnist"
+  ],
+  "program":  "/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/TheUnsolvedDev/DA6401_DeepLearning_Assignment1.git",
+    "commit":  "1ee6450273f7605a6e668f997ddf4609dff1a453"
+  },
+  "email":  "da24d402@smail.iitm.ac.in",
+  "root":  "/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1",
+  "host":  "desktop",
+  "executable":  "/home/shuvrajeet/miniconda3/envs/da6401_dl/bin/python3",
+  "codePathLocal":  "train.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 4060 Ti",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "479787274240",
+      "used":  "186944901120"
+    }
+  },
+  "memory":  {
+    "total":  "134931423232"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  16
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4060 Ti",
+      "memoryTotal":  "17175674880",
+      "cudaCores":  4352,
+      "architecture":  "Ada"
+    },
+    {
+      "name":  "NVIDIA GeForce RTX 4060 Ti",
+      "memoryTotal":  "17175674880",
+      "cudaCores":  4352,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.8"
+}

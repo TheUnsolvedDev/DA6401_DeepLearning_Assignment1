@@ -126,7 +126,7 @@ def main():
                         choices=["mnist", "fashion_mnist"], help="Dataset to use for training")
     parser.add_argument("-e", "--epochs", type=int, default=10,
                         help="Number of epochs to train neural network.")
-    parser.add_argument("-b", "--batch_size", type=int, default=4,
+    parser.add_argument("-b", "--batch_size", type=int, default=64,
                         help="Batch size used to train neural network.")
     parser.add_argument("-o", "--optimizer", default="sgd", choices=[
                         "sgd", "momentum", "nag", "rmsprop", "adam", "nadam"], help="Optimizer")
@@ -160,13 +160,13 @@ def main():
         }
 
         metric = {
-            'name': 'test_accuracy',
+            'name': 'validation_accuracy',
             'goal': 'maximize'
         }
         sweep_config['metric'] = metric
         parameters_dict = {
             'number_of_epochs': {
-                'values': [5, 10,25,50]
+                'values': [5, 10, 25, 50]
             },
             'number_of_hidden_layers': {
                 'values': [3, 4, 5]

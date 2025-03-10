@@ -1,0 +1,16 @@
+{"time":"2025-03-10T09:00:40.654347087+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250310_090040-sbg6myf3/logs/debug-core.log"}
+{"time":"2025-03-10T09:00:40.758716136+05:30","level":"INFO","msg":"created new stream","id":"sbg6myf3"}
+{"time":"2025-03-10T09:00:40.758746814+05:30","level":"INFO","msg":"stream: started","id":"sbg6myf3"}
+{"time":"2025-03-10T09:00:40.75877127+05:30","level":"INFO","msg":"handler: started","stream_id":"sbg6myf3"}
+{"time":"2025-03-10T09:00:40.758770188+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sbg6myf3"}
+{"time":"2025-03-10T09:00:40.758797439+05:30","level":"INFO","msg":"sender: started","stream_id":"sbg6myf3"}
+{"time":"2025-03-10T09:00:41.122457608+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T09:02:25.321706511+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T09:02:25.322105393+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T09:02:26.323230155+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":27.25605676},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":24.085105183},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":23.647957706},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":20.400264628},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":20.001876463},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":16.599919455},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":16.187159709},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":12.943947112},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":12.348572021},{"desc":"uploading artifact run-sbg6myf3-conf_mat_table","runtime_seconds":8.926162297}],"total_operations":15}}
+{"time":"2025-03-10T09:03:04.855665625+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T09:03:06.135541269+05:30","level":"INFO","msg":"stream: closing","id":"sbg6myf3"}
+{"time":"2025-03-10T09:03:06.135560806+05:30","level":"INFO","msg":"handler: closed","stream_id":"sbg6myf3"}
+{"time":"2025-03-10T09:03:06.135583439+05:30","level":"INFO","msg":"sender: closed","stream_id":"sbg6myf3"}
+{"time":"2025-03-10T09:03:06.135580563+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sbg6myf3"}
+{"time":"2025-03-10T09:03:06.135627642+05:30","level":"INFO","msg":"stream: closed","id":"sbg6myf3"}

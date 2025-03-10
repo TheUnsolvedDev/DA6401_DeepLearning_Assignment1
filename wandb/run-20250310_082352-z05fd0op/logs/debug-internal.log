@@ -1,0 +1,16 @@
+{"time":"2025-03-10T08:23:52.030588919+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250310_082352-z05fd0op/logs/debug-core.log"}
+{"time":"2025-03-10T08:23:52.135565747+05:30","level":"INFO","msg":"created new stream","id":"z05fd0op"}
+{"time":"2025-03-10T08:23:52.135613796+05:30","level":"INFO","msg":"stream: started","id":"z05fd0op"}
+{"time":"2025-03-10T08:23:52.135640866+05:30","level":"INFO","msg":"handler: started","stream_id":"z05fd0op"}
+{"time":"2025-03-10T08:23:52.135654101+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"z05fd0op"}
+{"time":"2025-03-10T08:23:52.135666564+05:30","level":"INFO","msg":"sender: started","stream_id":"z05fd0op"}
+{"time":"2025-03-10T08:23:52.517960323+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T08:25:49.677288762+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T08:25:49.677611985+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T08:25:50.678839663+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-z05fd0op-conf_mat_table","runtime_seconds":2.298876229},{"desc":"uploading artifact run-z05fd0op-conf_mat_table","runtime_seconds":1.66696171},{"desc":"uploading config.yaml","runtime_seconds":0.395183593,"progress":"2.2KB/2.2KB"}],"total_operations":3}}
+{"time":"2025-03-10T08:25:53.84810017+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T08:25:55.146134997+05:30","level":"INFO","msg":"stream: closing","id":"z05fd0op"}
+{"time":"2025-03-10T08:25:55.146160214+05:30","level":"INFO","msg":"handler: closed","stream_id":"z05fd0op"}
+{"time":"2025-03-10T08:25:55.146174221+05:30","level":"INFO","msg":"sender: closed","stream_id":"z05fd0op"}
+{"time":"2025-03-10T08:25:55.146172828+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"z05fd0op"}
+{"time":"2025-03-10T08:25:55.146233361+05:30","level":"INFO","msg":"stream: closed","id":"z05fd0op"}

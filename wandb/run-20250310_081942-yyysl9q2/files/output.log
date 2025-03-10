@@ -1,0 +1,1 @@
+d:fashion_mnist_e:10_bs:4_l:cross_entropy_o:sgd_lr:0.1_b:0.9_b:0.99_b:0.995_e:1e-06_wd:0.0_wi:random_nl:1_hs:4_a:sigmoid_
