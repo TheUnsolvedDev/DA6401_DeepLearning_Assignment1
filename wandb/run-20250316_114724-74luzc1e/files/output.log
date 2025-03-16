@@ -1,0 +1,11 @@
+d:fashion_mnist_e:25_bs:64_l:cross_entropy_o:adam_lr:0.0005_b:0.9_b:0.99_b:0.995_e:1e-06_wd:0.0005_wi:xavier_normal_nl:3_hs:128_a:tanh_
+[05/25]	 train_loss:0.034	 train_acc: 0.878	validation_loss:0.036	 validation_acc: 0.886
+test_loss:0.039	 test_acc: 0.868
+[10/25]	 train_loss:0.031	 train_acc: 0.890	validation_loss:0.034	 validation_acc: 0.892
+test_loss:0.036	 test_acc: 0.875
+[15/25]	 train_loss:0.029	 train_acc: 0.896	validation_loss:0.033	 validation_acc: 0.892
+test_loss:0.036	 test_acc: 0.880
+[20/25]	 train_loss:0.027	 train_acc: 0.901	validation_loss:0.032	 validation_acc: 0.893
+test_loss:0.035	 test_acc: 0.880
+[25/25]	 train_loss:0.026	 train_acc: 0.906	validation_loss:0.032	 validation_acc: 0.897
+test_loss:0.035	 test_acc: 0.881

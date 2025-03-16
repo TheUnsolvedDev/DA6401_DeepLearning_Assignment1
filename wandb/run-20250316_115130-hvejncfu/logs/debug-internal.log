@@ -1,0 +1,16 @@
+{"time":"2025-03-16T11:51:30.247492394+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250316_115130-hvejncfu/logs/debug-core.log"}
+{"time":"2025-03-16T11:51:30.351577959+05:30","level":"INFO","msg":"created new stream","id":"hvejncfu"}
+{"time":"2025-03-16T11:51:30.351612493+05:30","level":"INFO","msg":"stream: started","id":"hvejncfu"}
+{"time":"2025-03-16T11:51:30.351641157+05:30","level":"INFO","msg":"sender: started","stream_id":"hvejncfu"}
+{"time":"2025-03-16T11:51:30.351636328+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hvejncfu"}
+{"time":"2025-03-16T11:51:30.351668258+05:30","level":"INFO","msg":"handler: started","stream_id":"hvejncfu"}
+{"time":"2025-03-16T11:51:30.691252763+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T11:52:55.582090326+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T11:52:55.582456834+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T11:52:56.58411712+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":31.317882336},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":28.524893924},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":28.124486577},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":25.371408429},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":24.966169388},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":22.161470284},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":21.763338011},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":18.865837764},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":18.450601679},{"desc":"uploading artifact run-hvejncfu-conf_mat_table","runtime_seconds":15.637733995}],"total_operations":19}}
+{"time":"2025-03-16T11:53:46.830057745+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T11:53:48.107348712+05:30","level":"INFO","msg":"stream: closing","id":"hvejncfu"}
+{"time":"2025-03-16T11:53:48.107373469+05:30","level":"INFO","msg":"handler: closed","stream_id":"hvejncfu"}
+{"time":"2025-03-16T11:53:48.107397183+05:30","level":"INFO","msg":"sender: closed","stream_id":"hvejncfu"}
+{"time":"2025-03-16T11:53:48.107396723+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hvejncfu"}
+{"time":"2025-03-16T11:53:48.107455894+05:30","level":"INFO","msg":"stream: closed","id":"hvejncfu"}

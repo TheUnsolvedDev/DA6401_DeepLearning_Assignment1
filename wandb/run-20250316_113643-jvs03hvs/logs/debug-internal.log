@@ -1,0 +1,16 @@
+{"time":"2025-03-16T11:36:43.931581257+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250316_113643-jvs03hvs/logs/debug-core.log"}
+{"time":"2025-03-16T11:36:44.035471499+05:30","level":"INFO","msg":"created new stream","id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:44.035510392+05:30","level":"INFO","msg":"stream: started","id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:44.035535089+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:44.035540689+05:30","level":"INFO","msg":"handler: started","stream_id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:44.03556753+05:30","level":"INFO","msg":"sender: started","stream_id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:44.405294561+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T11:36:44.789111722+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T11:36:44.789780574+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T11:36:45.756368406+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.021814489,"progress":"24B/24B"},{"desc":"uploading output.log","runtime_seconds":0.021796355,"progress":"988B/988B"}],"total_operations":2}}
+{"time":"2025-03-16T11:36:46.391535053+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T11:36:47.6939869+05:30","level":"INFO","msg":"stream: closing","id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:47.694018279+05:30","level":"INFO","msg":"handler: closed","stream_id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:47.69405079+05:30","level":"INFO","msg":"sender: closed","stream_id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:47.694036814+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"jvs03hvs"}
+{"time":"2025-03-16T11:36:47.694105554+05:30","level":"INFO","msg":"stream: closed","id":"jvs03hvs"}

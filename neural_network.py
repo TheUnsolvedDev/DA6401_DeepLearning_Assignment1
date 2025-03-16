@@ -195,8 +195,12 @@ class NeuralNetwork:
         if self.loss == 'cross_entropy':
             dZ_last = (pred - labels)
         elif self.loss == 'squared_error':
-            dZ_last = (pred - labels)*pred - pred @ \
-                (np.dot((pred - labels).T, pred))
+            # dZ_last = np.multiply((pred - labels),pred) - pred @ \
+            #     (np.dot(pred.T, (pred - labels)))
+            dZ_last = np.multiply((pred - labels), pred) - np.multiply(pred, np.sum((pred - labels) * pred, axis=1, keepdims=True))
+            # print(pred.T.shape, (pred - labels).shape)
+            # print(pred.shape)
+            # dZ_last = 2*np.multiply(pred, (pred - labels)) - 2*(np.dot(pred.T, (pred - labels)))@pred
 
         grads['GradW_'+str(num_caches)] = np.dot(A_prev.T,
                                                  dZ_last)/batch_size

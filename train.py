@@ -68,7 +68,7 @@ def train(args):
         nn = NeuralNetwork(num_hidden_layers=config.num_layers, num_node_per_hidden_layer=config.hidden_size, weight_decay=config.weight_decay,
                            learning_rate=config.learning_rate, optimizer=config.optimizer, batch_size=config.batch_size, weights_init=config.weight_init, activation=config.activation, loss=config.loss)
         nn.train((x_train_split, y_train_split), (x_val_split, y_val_split), (x_test, y_test),
-                 epochs=config.epochs)
+                 epochs=config.epochs,log=True)
 
 
 def train_sweep(config=None):

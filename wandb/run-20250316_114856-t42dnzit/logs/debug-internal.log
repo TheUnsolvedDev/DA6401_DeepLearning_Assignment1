@@ -1,0 +1,16 @@
+{"time":"2025-03-16T11:48:56.888983668+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250316_114856-t42dnzit/logs/debug-core.log"}
+{"time":"2025-03-16T11:48:56.993489662+05:30","level":"INFO","msg":"created new stream","id":"t42dnzit"}
+{"time":"2025-03-16T11:48:56.99353119+05:30","level":"INFO","msg":"stream: started","id":"t42dnzit"}
+{"time":"2025-03-16T11:48:56.993548493+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"t42dnzit"}
+{"time":"2025-03-16T11:48:56.99355792+05:30","level":"INFO","msg":"sender: started","stream_id":"t42dnzit"}
+{"time":"2025-03-16T11:48:56.993581605+05:30","level":"INFO","msg":"handler: started","stream_id":"t42dnzit"}
+{"time":"2025-03-16T11:48:57.321230251+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T11:50:33.795159947+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T11:50:33.795535752+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T11:50:34.796701227+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":26.332790764},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":22.71704199},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":22.135729502},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":18.850211821},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":18.453849044},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":15.387239778},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":14.986720226},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":11.922577512},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":11.532120347},{"desc":"uploading artifact run-t42dnzit-conf_mat_table","runtime_seconds":7.651857659}],"total_operations":16}}
+{"time":"2025-03-16T11:51:15.120179425+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T11:51:16.419826664+05:30","level":"INFO","msg":"stream: closing","id":"t42dnzit"}
+{"time":"2025-03-16T11:51:16.419848125+05:30","level":"INFO","msg":"handler: closed","stream_id":"t42dnzit"}
+{"time":"2025-03-16T11:51:16.419862091+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"t42dnzit"}
+{"time":"2025-03-16T11:51:16.419865487+05:30","level":"INFO","msg":"sender: closed","stream_id":"t42dnzit"}
+{"time":"2025-03-16T11:51:16.419928906+05:30","level":"INFO","msg":"stream: closed","id":"t42dnzit"}

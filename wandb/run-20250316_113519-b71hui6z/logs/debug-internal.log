@@ -1,0 +1,16 @@
+{"time":"2025-03-16T11:35:19.748832806+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/wandb/run-20250316_113519-b71hui6z/logs/debug-core.log"}
+{"time":"2025-03-16T11:35:19.853716467+05:30","level":"INFO","msg":"created new stream","id":"b71hui6z"}
+{"time":"2025-03-16T11:35:19.853757595+05:30","level":"INFO","msg":"stream: started","id":"b71hui6z"}
+{"time":"2025-03-16T11:35:19.853779636+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"b71hui6z"}
+{"time":"2025-03-16T11:35:19.853788192+05:30","level":"INFO","msg":"sender: started","stream_id":"b71hui6z"}
+{"time":"2025-03-16T11:35:19.853806717+05:30","level":"INFO","msg":"handler: started","stream_id":"b71hui6z"}
+{"time":"2025-03-16T11:35:20.233335828+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T11:35:20.640464389+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T11:35:20.642387718+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T11:35:21.630443514+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.124110251,"progress":"988B/988B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.124099882,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-03-16T11:35:22.807443281+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T11:35:24.132322727+05:30","level":"INFO","msg":"stream: closing","id":"b71hui6z"}
+{"time":"2025-03-16T11:35:24.132345951+05:30","level":"INFO","msg":"handler: closed","stream_id":"b71hui6z"}
+{"time":"2025-03-16T11:35:24.132364586+05:30","level":"INFO","msg":"sender: closed","stream_id":"b71hui6z"}
+{"time":"2025-03-16T11:35:24.132360168+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"b71hui6z"}
+{"time":"2025-03-16T11:35:24.132410513+05:30","level":"INFO","msg":"stream: closed","id":"b71hui6z"}

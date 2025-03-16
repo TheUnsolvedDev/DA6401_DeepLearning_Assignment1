@@ -1,0 +1,11 @@
+d:fashion_mnist_e:25_bs:64_l:squared_error_o:adam_lr:0.0005_b:0.9_b:0.99_b:0.995_e:1e-06_wd:0.0005_wi:xavier_normal_nl:3_hs:128_a:tanh_
+Traceback (most recent call last):
+  File "/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/train.py", line 70, in train
+    nn.train((x_train_split, y_train_split), (x_val_split, y_val_split), (x_test, y_test),
+  File "/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/neural_network.py", line 302, in train
+    grads = self.backward(
+            ^^^^^^^^^^^^^^
+  File "/home/shuvrajeet/Documents/GitHub/DA6401_DeepLearning_Assignment1/neural_network.py", line 200, in backward
+    dZ_last = 2*np.multiply(pred, (pred - labels)) - 2*(np.dot(pred.T, (pred - labels)))@pred
+                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 64 is different from 10)
