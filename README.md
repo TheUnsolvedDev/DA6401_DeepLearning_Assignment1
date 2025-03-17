@@ -25,6 +25,26 @@ python3 -m pip install wandb
 python3 -m pip install tensorflow[and-cuda]
 ```
 
+## Code organisation:
+```bash
+DL_Assignment
+├── activation.py
+├── details.txt
+├── learning_annealers.py
+├── LICENSE
+├── losses.py
+├── main.py
+├── neural_network.py
+├── optimizers.py
+├── __pycache__
+├── README.md
+├── run.sh
+├── train.py
+├── train_used.py
+├── utils.py
+└── wandb
+```
+
 ## Project Structure:
 
 The project contains the implementtaion of various algorithms for running a Deep Neural Network.
