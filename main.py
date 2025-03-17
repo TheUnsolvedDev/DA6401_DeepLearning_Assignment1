@@ -10,9 +10,18 @@ class Solutions:
         self.see_all()
 
     def exercise1(self):
-        (x_train, y_train), (x_test,
-                             y_test) = tf.keras.datasets.fashion_mnist.load_data()
+        """
+        This function loads the Fashion MNIST dataset, selects one image from each class,
+        and displays them along with their corresponding labels. It also logs the images
+        to a Weights & Biases project for visualization.
 
+        Parameters:
+        None
+
+        Returns:
+        None
+        """
+        (x_train, y_train), (x_test, y_test) = tf.keras.datasets.fashion_mnist.load_data()
         indices = [np.argwhere(y_train == i)[0][0] for i in range(10)]
         item = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress',
                 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']

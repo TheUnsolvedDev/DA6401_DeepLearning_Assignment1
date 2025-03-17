@@ -13,6 +13,7 @@ Python - 3.11.6
 Numpy - 1.26.3
 Matplotlib - 3.8.2
 Wandb - 0.16.2
+Tensorflow - 2.18.0
 ```
 
 ## Setup:
@@ -21,6 +22,7 @@ Wandb - 0.16.2
 python3 -m pip install numpy
 python3 -m pip install matplotlib
 python3 -m pip install wandb
+python3 -m pip install tensorflow[and-cuda]
 ```
 
 ## Project Structure:

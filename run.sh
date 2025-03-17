@@ -1,3 +1,4 @@
+python3 main.py
 python3 train.py -e 25 -o adam -lr 0.0005 -w_d 0.0005 -nhl 3 -sz 128 -a tanh -loss cross_entropy -w_i xavier_normal
 python3 train.py -e 25 -o adam -lr 0.0005 -w_d 0.0005 -nhl 3 -sz 128 -a tanh -loss squared_error -w_i xavier_normal
 python3 train.py -e 25 -o adam -lr 0.0005 -w_d 0.0005 -nhl 3 -sz 128 -a tanh -loss cross_entropy -w_i xavier_normal -b 64 -d mnist

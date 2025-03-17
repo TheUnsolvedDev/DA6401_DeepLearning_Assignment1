@@ -9,6 +9,17 @@ from losses import *
 
 
 def get_name(params):
+    """
+    Generate a string representation of the hyperparameters used for training.
+
+    Parameters:
+    params (dict): A dictionary containing the hyperparameters. The keys are the hyperparameter names,
+                   and the values are the corresponding hyperparameter values.
+
+    Returns:
+    str: A string representation of the hyperparameters. Each hyperparameter is represented as a
+         shortened key-value pair separated by a colon. The pairs are joined by underscores.
+    """
     keys = [key for key in params.keys()]
     values = [params[key] for key in keys]
 
@@ -19,6 +30,33 @@ def get_name(params):
 
 
 def train(args):
+    """
+    This function trains a neural network using TensorFlow and Weights & Biases (W&B) for tracking experiments.
+    It loads the specified dataset, preprocesses the data, splits it into training, validation, and testing sets,
+    configures the hyperparameters, initializes the neural network, and trains it.
+
+    Parameters:
+    args (argparse.Namespace): An object containing the command-line arguments. It should have the following attributes:
+        - wandb_project (str): The name of the project used to track experiments in W&B dashboard.
+        - dataset (str): The dataset to use for training. It should be either 'mnist' or 'fashion_mnist'.
+        - epochs (int): The number of epochs to train the neural network.
+        - batch_size (int): The batch size used to train the neural network.
+        - optimizer (str): The optimizer to use for training. It should be one of 'sgd', 'momentum', 'nag', 'rmsprop', 'adam', or 'nadam'.
+        - learning_rate (float): The learning rate for the optimizer.
+        - beta (float): The beta value used by the rmsprop optimizer.
+        - beta1 (float): The beta1 value used by the adam and nadam optimizers.
+        - beta2 (float): The beta2 value used by the adam and nadam optimizers.
+        - epsilon (float): The epsilon value used by the optimizers.
+        - weight_decay (float): The weight decay value used by the optimizers.
+        - weight_init (str): The weight initialization method. It should be one of 'random', 'xavier_normal', or 'xavier_uniform'.
+        - num_layers (int): The number of hidden layers in the neural network.
+        - hidden_size (int): The number of hidden neurons in each feedforward layer.
+        - activation (str): The activation function to use. It should be one of 'sigmoid', 'tanh', or 'relu'.
+        - loss_fn (str): The choice of loss function. It should be either 'cross_entropy' or 'squared_error'.
+
+    Returns:
+    None
+    """
     import tensorflow as tf
 
     with wandb.init(project=args.wandb_project) as run:
@@ -72,6 +110,28 @@ def train(args):
 
 
 def train_sweep(config=None):
+    """
+    This function performs hyperparameter sweep using Weights & Biases (W&B) for tracking experiments.
+    It loads the Fashion-MNIST dataset, preprocesses the data, splits it into training, validation, and testing sets,
+    configures the hyperparameters, initializes the neural network, and trains it.
+
+    Parameters:
+    config (dict, optional): A dictionary containing the hyperparameters for the sweep.
+                             If None, the function will use default values.
+                             The dictionary should have the following keys:
+                             - number_of_epochs: The number of epochs to train the neural network.
+                             - number_of_hidden_layers: The number of hidden layers in the neural network.
+                             - size_of_every_hidden_layer: The number of hidden neurons in each feedforward layer.
+                             - weight_decay: The weight decay value used by the optimizers.
+                             - learning_rate: The learning rate for the optimizer.
+                             - optimizer: The optimizer to use for training.
+                             - batch_size: The batch size used to train the neural network.
+                             - weight_initialisation: The weight initialization method.
+                             - activation_functions: The activation function to use.
+
+    Returns:
+    None
+    """
     import tensorflow as tf
     (x_train, y_train), (x_test, y_test) = tf.keras.datasets.fashion_mnist.load_data()
     x_train = (x_train/255.0).reshape(-1, 784)
@@ -114,6 +174,16 @@ def train_sweep(config=None):
 
 
 def main():
+    """
+    The main function is responsible for parsing command-line arguments, setting up the neural network training process,
+    and performing hyperparameter sweep using Weights & Biases (W&B) if specified.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+    """
     parser = argparse.ArgumentParser(
         description="Train neural network with specified hyperparameters")
     parser.add_argument("-wp", "--wandb_project", default="DA24D402_DL_1",
