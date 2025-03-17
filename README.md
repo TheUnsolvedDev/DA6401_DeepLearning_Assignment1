@@ -16,6 +16,11 @@ Wandb - 0.16.2
 Tensorflow - 2.18.0
 ```
 
+or you can use the conda setp yaml as follows
+```bash
+conda env create -f env_setup.yml
+```
+
 ## Setup:
 
 ```bash
